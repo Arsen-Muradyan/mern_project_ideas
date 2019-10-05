@@ -1,0 +1,23 @@
+{
+  "name": "project_ideas",
+  "version": "1.0.0",
+  "description": "Project Ideas Web App",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server",
+    "client": "npm start --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "Arsen Muradyan",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^4.1.2",
+    "config": "^3.2.3",
+    "express": "^4.17.1",
+    "mongoose": "^5.7.3",
+    "react-redux": "^7.1.1",
+    "reactstrap": "^8.0.1",
+    "redux": "^4.0.4",
+    "redux-thunk": "^2.3.0"
+  }
+}
