@@ -1,1 +1,6 @@
-export const FETCH_IDEAS = "FETCH_IDEAS";
+export const IDEAS_FETCHING = "IDEAS_FETCHING";
+export const IDEAS_FETCHED = "IDEAS_FETCHED";
+export const IDEA_ADDING = "IDEA_ADDING";
+export const IDEA_ADDED = "IDEA_ADDED";
+export const IDEA_DELETING = "IDEA_DELETING";
+export const IDEA_DELETED = "IDEA_DELETED";
