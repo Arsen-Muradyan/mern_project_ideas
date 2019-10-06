@@ -1,7 +1,6 @@
 import React, { Component } from 'react'
 import { connect } from 'react-redux';
 import { addIdea } from '../actions/ideaActions';
-import { runInThisContext } from 'vm';
 
 class Form extends Component {
   state = {
