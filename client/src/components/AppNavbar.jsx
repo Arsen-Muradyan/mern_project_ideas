@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
 import {
   Collapse,
   Navbar,
@@ -7,16 +7,16 @@ import {
   Nav,
   NavItem,
   NavLink
-} from 'reactstrap';
+} from "reactstrap";
 class AppNavbar extends Component {
   state = {
     isOpen: false
-  }
+  };
   toggle = () => {
     this.setState({
       isOpen: !this.state.isOpen
     });
-  }
+  };
   render() {
     return (
       <Navbar color="light" light expand="md">
@@ -25,12 +25,14 @@ class AppNavbar extends Component {
         <Collapse isOpen={this.state.isOpen} navbar>
           <Nav className="ml-auto" navbar>
             <NavItem>
-              <NavLink href="https://github.com/reactstrap/reactstrap">GitHub</NavLink>
+              <NavLink href="https://github.com/reactstrap/reactstrap">
+                GitHub
+              </NavLink>
             </NavItem>
           </Nav>
         </Collapse>
       </Navbar>
-    )
+    );
   }
 }
 export default AppNavbar;
